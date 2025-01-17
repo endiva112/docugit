@@ -4,19 +4,21 @@ Este proyecto es una página web que documenta los conceptos básicos y avanzado
 
 ## 🌐 Demo
 Puedes acceder al proyecto en vivo aquí:
-- [Versión en Español](https://tu-usuario.github.io/tu-repositorio/es/)
-- [English Version](https://tu-usuario.github.io/tu-repositorio/en/)
+- [Versión en Español](https://endiva112.github.io/docugit/es/)
+- [English Version](https://endiva112.github.io/docugit/en/)
 
 ## 📁 Estructura del proyecto
 ```
-├── index.html        # Página principal con opciones de idioma
+├── index.html        # Un index semi vacío que redirecciona al index.html en español.
+│                     # Contiende además la información 'meta'
 ├── es/               # Carpeta para la versión en español
-│   └── index.html    # Página principal en español
+│   └── index.html    # Web en español
 ├── en/               # Carpeta para la versión en inglés
-│   └── index.html    # Página principal en inglés
+│   └── index.html    # Web en inglés
 ├── css/              # Estilos CSS
 │   └── styles.css    # Archivo de estilos compartido
-├── js/               # Scripts JavaScript (opcional)
+├── js/               # Scripts JavaScript
+│   └── script.js     # Archivo de estilos compartido
 └── assets/           # Recursos como imágenes, íconos, etc.
 ```
 
@@ -78,5 +80,5 @@ Este proyecto está bajo la licencia MIT. Consulta el archivo [LICENSE](LICENSE)
 
 ## 📧 Contacto
 Si tienes alguna pregunta o sugerencia, no dudes en contactarme:
-- **Email:** tu-email@example.com
-- **GitHub:** [tu-usuario](https://github.com/tu-usuario)
+- **Email:** diazvalenzuelaenrique@gmail.com
+- **GitHub:** [endiva112](https://github.com/endiva112)

@@ -35,6 +35,11 @@ body {
     overflow: hidden;
 }
 
+.top_of_page {
+    text-decoration: none;
+    color: #212529;
+}
+
 #navbar header {
     border-bottom: 2px solid #343a40;
     padding: 10px 20px 0 0;
@@ -310,32 +315,39 @@ footer a:active {
         margin-left: 20%;
         width: 80%;
     }
-
+    
     #header-navbar {
         width: 80%;
     }
-
+    
     .main-section {
         overflow: hidden;
         margin: 10px 80px;
         padding: 0 40px;
+    }
+
+    .code_pre {
+        white-space: pre-wrap; /* Permite saltos de línea automáticos y respeta espacios */
+        word-wrap: break-word; /* Permite romper palabras largas si no caben */
+        overflow-wrap: break-word; /* Alternativa moderna para romper palabras */
     }
 }
 
 @media (max-width: 1030px) {
     #navbar {
         width: 25%;
+        font-size: 0.8em;
     }
     
     #main-doc {
         margin-left: 25%;
         width: 75%;
     }
-
+    
     #header-navbar {
         width: 75%;
     }
-
+    
     .main-section {
         margin: 10px 20px;
         padding: 0 40px;
@@ -343,13 +355,27 @@ footer a:active {
 }
 
 @media (max-width: 800px) {
+    #navbar {
+        width: 20%;
+        font-size: 0.6em;
+    }
+
+    #navbar a {
+        padding: 0 0 14px 5px;
+    }
+    
+    #main-doc {
+        margin-left: 20%;
+        width: 80%;
+    }
+
     .main-section {
         margin: 10px 0;
         padding: 0 40px;
     }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 740px) {
     #navbar {
         display: none; /* Oculta el navbar en pantallas pequeñas */
     }
@@ -366,6 +392,20 @@ footer a:active {
     
     .main-section {
         margin: 10px;
+    }
+}
+
+@media (max-width: 600px) {
+    html {
+        overflow-x: hidden;
+    }
+
+    .code_pre {
+        padding: 10px;
+        font-size: 2.4vw;
+        white-space: pre-wrap; /* Permite saltos de línea automáticos y respeta espacios */
+        word-wrap: break-word; /* Permite romper palabras largas si no caben */
+        overflow-wrap: break-word; /* Alternativa moderna para romper palabras */
     }
 }
 

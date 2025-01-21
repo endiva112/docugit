@@ -151,14 +151,15 @@ body {
 
 .switch label button::before, .switch label button::after {
     width: 50%;
-    content: 'O';
+    content: '☀︎';
     font-size: xx-large;
+    margin: 5px 5px 5px 8px;
     color: #eee;
 }
 
 .switch label button::after {
-    content: '-';
-    margin: 0 2px 5px 0;
+    content: '☾ ';
+    margin: 5px 10px 5px 0;
     color: #787b84;
 }
 

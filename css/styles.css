@@ -84,7 +84,7 @@ body {
     flex: 0.9;  /*TODO -> Realizar más proyectos usando esta propiedad para masterizarla*/
 }
 
-#header-navbar img {
+#language_flag {
     height: 30px;
     display: block;
 }
@@ -342,13 +342,13 @@ footer a:active {
         margin: 10px 80px;
         padding: 0 40px;
     }
-
+    
     .code_pre {
         white-space: pre-wrap; /* Permite saltos de línea automáticos y respeta espacios */
         word-wrap: break-word; /* Permite romper palabras largas si no caben */
         overflow-wrap: break-word; /* Alternativa moderna para romper palabras */
     }
-
+    
     .arrow-up {
         height: 90px;
         width: 90px;
@@ -374,7 +374,7 @@ footer a:active {
         margin: 10px 20px;
         padding: 0 40px;
     }
-
+    
     .arrow-up {
         height: 80px;
         width: 80px;
@@ -386,7 +386,7 @@ footer a:active {
         width: 20%;
         font-size: 0.65em;
     }
-
+    
     #navbar a {
         padding: 0 0 14px 5px;
     }
@@ -394,17 +394,17 @@ footer a:active {
     #header-navbar {
         width: 80%;
     }
-
+    
     #main-doc {
         margin-left: 20%;
         width: 80%;
     }
-
+    
     .main-section {
         margin: 10px 0;
         padding: 0 40px;
     }
-
+    
     .arrow-up {
         height: 70px;
         width: 70px;
@@ -429,15 +429,15 @@ footer a:active {
     .main-section {
         margin: 10px;
     }
-
+    
     #Referencia article dl {
         margin: 2px;
     }
-
+    
     #Referencia article dt {
         padding: 8px 0 4px 0;
     }
-
+    
     #Referencia article dd, article td {
         font-size: 3vw;
     }
@@ -447,15 +447,15 @@ footer a:active {
     body {
         font-size: 16px;
     }
-
+    
     .main-section {
         padding: 2px;
     }
-
+    
     .main-section h2 {
         margin: 10px 0;
     }
-
+    
     .code_pre {
         padding: 10px;
         font-size: 3.4vw;
@@ -463,21 +463,21 @@ footer a:active {
         word-wrap: break-word; /* Permite romper palabras largas si no caben */
         overflow-wrap: break-word; /* Alternativa moderna para romper palabras */
     }
-
+    
     .arrow-up {
         height: 60px;
         width: 60px;
     }
-
+    
     .switch {
         height: 30px;
     }
-
+    
     .switch label {
         width: 60px;
         font-size: 1px;
     }
-
+    
     .switch label button::before, .switch label button::after {
         font-size: large;
     }
@@ -543,6 +543,25 @@ body.dark-mode section:last-of-type dl {
     background-color: #6c757d;
 }
 
+#language-selector {
+    position: relative; /* Hace que este elemento sea el contenedor posicionado */
+    display: inline-block; /* Ajusta el tamaño del contenedor al contenido */
+}
+
+.down-arrow {
+    background-color: #f8f9fa;
+    border-radius: 100%;
+    position: absolute;
+    bottom: -4px;
+    right: -4px;
+    width: 19px;
+    height: auto;
+}
+
+.down-arrow img {
+    transform: rotate(270deg);
+    padding: 2px;
+}
 
 /*
 f8f9fa

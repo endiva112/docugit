@@ -51,16 +51,18 @@ body {
     font-style: italic;
 }
 
+
+/*todo*/
 .nav-link {
-    padding: 0 0 14px 14px;
-    border-bottom: 1px solid #343a40;
-    
+    padding: 10px 14px;
+    text-decoration: none;
+    color: #212529;
     font-size: 0.85em;
     font-weight: 500;
     font-family: Helvetica;
-    text-decoration: none;
-    color: #212529;
+    box-shadow: 0 3px 5px -3px rgba(0, 0, 0, 0.2); /* Sombra suave para el efecto de difuminado */
 }
+
 
 #header-navbar {
     background-color: #dee2e6;
